@@ -51,7 +51,7 @@ func changePermission(fileName string) error {
 	cmd := exec.Command("sh")
 	cmd.Stdin = in
 	go func() {
-		in.WriteString("chmod 755 " + fileName + "\n")
+		in.WriteString("chmod 700 " + fileName + "\n")
 		in.WriteString("exit\n")
 	}()
 	if err := cmd.Run(); err != nil {
