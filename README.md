@@ -14,7 +14,8 @@ Warning : when first using this cmd, u should mkdir "/var/lib/noteddata/" and ch
 一个记事本程序
 
 #Examples
-noted add onename "zhang3"
-noted get onename
-noted append onename "333"
-noted del onename
+noted add onename "zhang3"；
+noted get onename；
+noted append onename "333"；
+noted del onename；
+
