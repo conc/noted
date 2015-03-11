@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+addKey	main.go	/^func addKey(key string, addContent string) error {$/;"	f
+appendKey	main.go	/^func appendKey(key string, addContent string) error {$/;"	f
+changePermission	common.go	/^func changePermission(fileName string) error {$/;"	f
+checkFileIsExist	common.go	/^func checkFileIsExist(fileName string) bool {$/;"	f
+dataPath	globalparameter.go	/^var dataPath string = `\/var\/lib\/noteddata\/`$/;"	v
+delFile	common.go	/^func delFile(fileName string) {$/;"	f
+delKey	main.go	/^func delKey(key string) error {$/;"	f
+getFilelist	common.go	/^func getFilelist(dirPath string) ([]string, error) {$/;"	f
+getKey	main.go	/^func getKey(key string) (string, error) {$/;"	f
+getKeyFromFilePath	common.go	/^func getKeyFromFilePath(filePath string) string {$/;"	f
+helpStr	globalparameter.go	/^var helpStr string = `notice:$/;"	v
+main	common.go	/^package main$/;"	p
+main	globalparameter.go	/^package main$/;"	p
+main	main.go	/^func main() {$/;"	f
+main	main.go	/^package main$/;"	p
+mkDir	common.go	/^func mkDir(dirPath string) error {$/;"	f
+mkFile	common.go	/^func mkFile(fileName string) error {$/;"	f
+readFromFile	common.go	/^func readFromFile(fileName string) (string, error) {$/;"	f
+saveToNewFile	common.go	/^func saveToNewFile(fileName string, content string) error {$/;"	f
+showHelp	main.go	/^func showHelp() {$/;"	f
+showKeys	main.go	/^func showKeys() error {$/;"	f
+showResult	main.go	/^func showResult(cmd string, fileContent string) {$/;"	f
