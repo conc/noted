@@ -11,7 +11,7 @@ Warning : when first using this cmd, u should mkdir "/var/lib/noteddata/" and ch
 
 #What is this
 
-一个记事本程序
+一个随笔记录程序，linux下命令行使用，还是挺方便的
 
 #Examples
 noted add onename "zhang3"；  
